@@ -1,0 +1,47 @@
+.recipeOne{
+    /* background: rgba(187, 187, 187, 0.5); */
+    background:linear-gradient(rgba(236, 117, 20, 0.1),rgba(82, 82, 82, 0.7));
+    border-radius: 0.2rem;
+    margin: 10px;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.images{
+    margin: 20px;
+    align-self: center;
+}
+.recipeOne p{
+color: rgb(35, 35, 35);
+font-size: 21.5px;
+margin-top: 25px;
+
+}
+.recipeOne button{
+    background-color: rgba(82, 82, 82, 0);
+    font-size: 20px;
+    border-radius: 0.2rem;
+    transition: 0.5s; 
+
+}
+.favorite{
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.buttonFavorite{
+    color: rgb(35, 35, 35);
+    background-color: rgba(236, 117, 20, 0);
+}
+.recipeOne button:hover{
+    background-color: chocolate;
+} 

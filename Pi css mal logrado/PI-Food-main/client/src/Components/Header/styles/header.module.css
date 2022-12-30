@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+}
+.navigation{
+    display: flex;
+    height: 50px;
+    /* background: rgba(0, 0, 0, 0.3); */
+    background: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+    align-items: center;
+    /* display: none; */
+}
+.navigation button{
+    position: relative;
+    overflow: hidden;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: .5s;
+    margin: 1vw;
+    margin-right: 90px;
+    justify-content: center;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    
+    
+}
+
+.logo img {
+    height:50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+
+
+/* button animation */
+button:hover{
+    color: white;
+    background-color: chocolate;
+}
+button span {
+    position:  absolute;
+    background-color: white;
+    transition: 0.5s;
+}
+button span:nth-child(1){
+    width: 100%;
+    height:1px ;
+    top : 0;
+    left: -100%;
+}
+button span:nth-child(2){
+    width: 100%;
+    height:1px ;
+    bottom: 0;
+   right: -100%;
+}
+button span:nth-child(3){
+    width: 1px;
+    height:100% ;
+    bottom: -100%;
+    left: 0;
+}
+button span:nth-child(4){
+    width: 1px;
+    height:100% ;
+    top: -100%;
+    right: 0;
+}
+
+button:hover span:nth-child(1) {
+ left: 0;
+}
+button:hover span:nth-child(2) {
+    right: 0;
+}
+button:hover span:nth-child(3) {
+    bottom: 0;
+}
+button:hover span:nth-child(4) {
+    top: 0;
+}

@@ -1,0 +1,12 @@
+?apiKey=c35a7e4387ac4d76b39907f4ae40ba6c
+https://api.spoonacular.com/recipes/complexSearch?apiKey=c35a7e4387ac4d76b39907f4ae40ba6c
+
+
+https://api.spoonacular.com/recipes/complexSearch?apiKey=c35a7e4387ac4d76b39907f4ae40ba6c&addRecipeInformation=true
+&addRecipeInformation=true
+
+https://api.spoonacular.com/recipes/complexSearch?apiKey=c35a7e4387ac4d76b39907f4ae40ba6c&addRecipeInformation=true&number=100
+
+https://api.spoonacular.com/recipes/{id}/information?apiKey=c35a7e4387ac4d76b39907f4ae40ba6c
+
+'https://run.mocky.io/v3/84b3f19c-7642-4552-b69c-c53742badee5'
